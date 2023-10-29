@@ -1,5 +1,5 @@
 import 'react-native-gesture-handler';
-import { StyleSheet } from 'react-native';
+import { Button, StyleSheet, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -36,7 +36,6 @@ export default function App() {
           <Stack.Screen 
             name="MealDetail"
             component={MealDetailScreen}
-
           />
         </Stack.Navigator>
       </NavigationContainer>
